@@ -1,0 +1,28 @@
+.headerSVG{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(318deg) brightness(101%) contrast(104%);
+}
+.homeLink{
+    font-family: 'Anton' ;
+    font-size: 1.50em;
+}
+
+.nav{
+    display: flex;
+    width: 58rem;
+    min-height: 3rem ;
+    background-color: var(--accent-color);
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.burgerContainer{
+    display: none;
+}
+.linkList{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    list-style-type: none;
+}

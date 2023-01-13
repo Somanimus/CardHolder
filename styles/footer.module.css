@@ -1,0 +1,32 @@
+.navContainer{
+    background-color: var(--accent-color);
+}
+.footer{
+background-color: var(--primary-color);
+}
+.footerColumns ul{
+        list-style-type: none;
+}
+.footerColumns ul li{
+    margin: 0.7em 0;
+}
+.footerLinks{
+    width: 60%;
+    margin: auto;
+    margin-top: 5em;
+    height: 15em;
+    background-color: var(--primary-color);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.footerSocials{
+    display: flex;
+    width: 10em;
+    justify-content: space-between;
+}
+.title{
+    margin-bottom: 0.4em;
+    font-size: 1.5rem;
+    border-bottom: 3px solid var(--accent-color);
+}
